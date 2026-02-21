@@ -42,7 +42,7 @@ nav a:hover {
 }
 
 /* ========== Container ========== */
-div {
+.container {
   max-width: 900px;
   margin: 20px auto;
   padding: 20px;

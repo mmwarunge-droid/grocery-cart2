@@ -1,8 +1,5 @@
-import { expect, vi } from "vitest";
-import matchers from "@testing-library/jest-dom/matchers";
-
-// Extend Vitest's expect with jest-dom matchers
-expect.extend(matchers);
+import { vi } from "vitest";
+import "@testing-library/jest-dom/vitest";
 
 // Mock window.matchMedia for react-hot-toast
 Object.defineProperty(window, "matchMedia", {
